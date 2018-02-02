@@ -40,7 +40,6 @@ export default {
 			.then(response => response.json())
 			.then(response => {
 				this.listingData = response;
-				console.log(this.listingData);
 			})
 	  }
   },

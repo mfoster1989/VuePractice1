@@ -16,7 +16,12 @@
 <script>
 export default {
     name: "TheJobForm",
-    props: ['sendListing'],
+    props: {
+        sendListing: {
+            type: Function,
+            required: true
+        }
+    },
     data () {
         return {
             job: {
@@ -40,6 +45,16 @@ export default {
     }
 }
 </script>
+<style scoped>
 
-<style lang="css">
+#TheJobForm {
+  grid-column: 4/5;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
 </style>
