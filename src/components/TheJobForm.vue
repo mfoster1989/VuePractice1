@@ -47,7 +47,7 @@ export default {
 </script>
 <style scoped>
 
-#TheJobForm {
+#side-bar {
   grid-column: 4/5;
 }
 

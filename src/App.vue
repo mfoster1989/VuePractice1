@@ -41,12 +41,12 @@ export default {
 			.then(response => {
 				this.listingData = response;
 			})
-	  }
-  },
-    postListing(listing) {
-        this.listingData.unshift(listing)
-    }
+	  },
+      postListing(listing) {
+          this.listingData.unshift(listing)
+      },
   }
+}
 
 </script>
 
